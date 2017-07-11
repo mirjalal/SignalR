@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="title_activity_chat">Chat (Client side)</string>
+    <string name="action_settings">Settings</string>
+    <string name="enterUsername">Enter username to sign in</string>
+    <string name="enterText">Type message…</string>
+    <string name="signIn">Sign In</string>
+    <string name="send">Send</string>
+</resources>

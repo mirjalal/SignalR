@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="WebClient" Label="WebClient" Category="Project" />
+    <Node Id="jQuery 2.1.4" Label="jQuery 2.1.4" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.JS 2.2.0" Label="Microsoft.AspNet.SignalR.JS 2.2.0" Category="Package" />
+    <Node Id="WinFormsServer" Label="WinFormsServer" Category="Project" />
+    <Node Id="Microsoft.AspNet.Cors 5.2.3" Label="Microsoft.AspNet.Cors 5.2.3" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.Core 2.2.0" Label="Microsoft.AspNet.SignalR.Core 2.2.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Label="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Category="Package" />
+    <Node Id="Microsoft.Owin 3.0.1" Label="Microsoft.Owin 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Cors 3.0.1" Label="Microsoft.Owin.Cors 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Diagnostics 3.0.1" Label="Microsoft.Owin.Diagnostics 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Host.HttpListener 3.0.1" Label="Microsoft.Owin.Host.HttpListener 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Hosting 3.0.1" Label="Microsoft.Owin.Hosting 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Security 3.0.1" Label="Microsoft.Owin.Security 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.SelfHost 3.0.1" Label="Microsoft.Owin.SelfHost 3.0.1" Category="Package" />
+    <Node Id="Newtonsoft.Json 7.0.1" Label="Newtonsoft.Json 7.0.1" Category="Package" />
+    <Node Id="Owin 1.0" Label="Owin 1.0" Category="Package" />
+    <Node Id="WPFServer" Label="WPFServer" Category="Project" />
+    <Node Id="Microsoft.AspNet.Cors 5.2.3" Label="Microsoft.AspNet.Cors 5.2.3" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.Core 2.2.0" Label="Microsoft.AspNet.SignalR.Core 2.2.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Label="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Category="Package" />
+    <Node Id="Microsoft.Owin 3.0.1" Label="Microsoft.Owin 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Cors 3.0.1" Label="Microsoft.Owin.Cors 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Diagnostics 3.0.1" Label="Microsoft.Owin.Diagnostics 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Host.HttpListener 3.0.1" Label="Microsoft.Owin.Host.HttpListener 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Hosting 3.0.1" Label="Microsoft.Owin.Hosting 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.Security 3.0.1" Label="Microsoft.Owin.Security 3.0.1" Category="Package" />
+    <Node Id="Microsoft.Owin.SelfHost 3.0.1" Label="Microsoft.Owin.SelfHost 3.0.1" Category="Package" />
+    <Node Id="Newtonsoft.Json 7.0.1" Label="Newtonsoft.Json 7.0.1" Category="Package" />
+    <Node Id="Owin 1.0" Label="Owin 1.0" Category="Package" />
+    <Node Id="WPFClient" Label="WPFClient" Category="Project" />
+    <Node Id="Microsoft.AspNet.SignalR.Client 2.2.0" Label="Microsoft.AspNet.SignalR.Client 2.2.0" Category="Package" />
+    <Node Id="Newtonsoft.Json 7.0.1" Label="Newtonsoft.Json 7.0.1" Category="Package" />
+    <Node Id="WinFormsClient" Label="WinFormsClient" Category="Project" />
+    <Node Id="Microsoft.AspNet.SignalR.Client 2.2.0" Label="Microsoft.AspNet.SignalR.Client 2.2.0" Category="Package" />
+    <Node Id="Newtonsoft.Json 7.0.1" Label="Newtonsoft.Json 7.0.1" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="Microsoft.AspNet.SignalR.JS 2.2.0" Target="jQuery 2.1.4" Category="Package Dependency" />
+    <Link Source="WebClient" Target="Microsoft.AspNet.SignalR.JS 2.2.0" Category="Installed Package" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Microsoft.Owin.Security 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Target="Microsoft.AspNet.SignalR.Core 2.2.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Target="Microsoft.Owin.SelfHost 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.AspNet.Cors 5.2.3" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Security 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Security 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin.Diagnostics 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin.Hosting 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin.Host.HttpListener 3.0.1" Category="Package Dependency" />
+    <Link Source="WinFormsServer" Target="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Category="Installed Package" />
+    <Link Source="WinFormsServer" Target="Microsoft.Owin.Cors 3.0.1" Category="Installed Package" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Core 2.2.0" Target="Microsoft.Owin.Security 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Target="Microsoft.AspNet.SignalR.Core 2.2.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Target="Microsoft.Owin.SelfHost 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Cors 3.0.1" Target="Microsoft.AspNet.Cors 5.2.3" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Diagnostics 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Hosting 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Security 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.Security 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Owin 1.0" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin.Diagnostics 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin.Hosting 3.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.Owin.SelfHost 3.0.1" Target="Microsoft.Owin.Host.HttpListener 3.0.1" Category="Package Dependency" />
+    <Link Source="WPFServer" Target="Microsoft.AspNet.SignalR.SelfHost 2.2.0" Category="Installed Package" />
+    <Link Source="WPFServer" Target="Microsoft.Owin.Cors 3.0.1" Category="Installed Package" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="WPFClient" Target="Microsoft.AspNet.SignalR.Client 2.2.0" Category="Installed Package" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.SignalR.Client 2.2.0" Target="Newtonsoft.Json 7.0.1" Category="Package Dependency" />
+    <Link Source="WinFormsClient" Target="Microsoft.AspNet.SignalR.Client 2.2.0" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>
