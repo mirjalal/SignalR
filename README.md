@@ -14,9 +14,9 @@ Minimum requirements
 
 Usage
 ------------
-<p>To build C# project open `.sln` of the solution in your Visual Studio. In `WinFormsServer.cs` change change the value of <i>serverURI </i> variable as you want (btw, replace 27 port number with your own number in `CreateFirewallRule()` method in the same file). Select <b>WinFormsServer</b> application and from `Debug` menu in your IDE select `Start without debugging`. Hit `Start` button in running application to start the SignalR server.</p>
+To build C# project open `.sln` of the solution in your Visual Studio. In `WinFormsServer.cs` change change the value of <i>serverURI </i> variable as you want (btw, replace 27 port number with your own number in `CreateFirewallRule()` method in the same file). Select <b>WinFormsServer</b> application and from `Debug` menu in your IDE select `Start without debugging`. Hit `Start` button in running application to start the SignalR server.
 
-<p>To build [Android app](https://github.com/mirjalal/SignalR/tree/master/Client) open it in your Android Studio. Generate a key and keystore and [sign your app](https://developer.android.com/studio/publish/app-signing.html). Close look to [16th line](https://github.com/mirjalal/SignalR/blob/master/Client/app/build.gradle#L16) and <b>DO NOT CHANGE</b> it, otherwise application will not work and try to do not make unnecessary change.</p>
+To build [Android app](https://github.com/mirjalal/SignalR/tree/master/Client) open it in your Android Studio. Generate a key and keystore and [sign your app](https://developer.android.com/studio/publish/app-signing.html). Close look to [16th line](https://github.com/mirjalal/SignalR/blob/master/Client/app/build.gradle#L16) and <b>DO NOT CHANGE</b> it, otherwise application will not work and try to do not make unnecessary change.
 
 Contributing
 ------------
